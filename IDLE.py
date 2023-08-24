@@ -1,4 +1,8 @@
-myname = input()
-print('Hi ' + myname)
-myage = int(input())
-print (1 + myage)
+def myFirstFunc(name):
+    names = ('Mary', 'John')
+    if name in names:
+        print('success')
+    else:
+        print ('fail')
+    return(name)
+
