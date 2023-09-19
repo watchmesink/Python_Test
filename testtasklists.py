@@ -10,5 +10,5 @@ def andfunction(func):
         return func
 
 emptylist = []
-
 print(andfunction((spam)))
+
