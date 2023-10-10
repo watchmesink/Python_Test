@@ -10,5 +10,5 @@ for i in range(1,10):
     elif guess > secretNumber:
         print('too high')
     else:
-        print('well done, the number is ' + str(guess) + 'you used ' + str(i) + ' guesses')
+        print('well done, the number is ' + str(guess) + ' you used ' + str(i) + ' guesses')
         break
